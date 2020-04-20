@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-content{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+#spinner{
+    background: #Dd0021;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
