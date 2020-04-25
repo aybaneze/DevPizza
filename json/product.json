@@ -1,0 +1,50 @@
+    [
+    {
+        "id": "1",
+        "nombre":"Pizza Americana",
+        "descripcion":"pizza muy deliciosa",
+        "image":"../imagenes/tipos-pizza/pizza-americana.jpg",
+        "precio":"18.00",
+        "descuento":"5"
+    },
+    {
+        "id": "2",
+        "nombre":"Pizza Pepperoni",
+        "descripcion":"pizza muy deliciosa y rica",
+        "image":"../imagenes/tipos-pizza/pizza-de-pepperoni.jpg",
+        "precio":"21.00",
+        "descuento":"5"
+    },
+    {
+        "id": "3",
+        "nombre":"Pizza Especial",
+        "descripcion":"pizza crocante",
+        "image":"../imagenes/tipos-pizza/pizza-especial.jpg",
+        "precio":"30.00",
+        "descuento":"5"
+    },
+    {
+        "id": "4",
+        "nombre":"Pizza Hawaiana",
+        "descripcion":"pizza hawaiana deliciosa",
+        "image":"../imagenes/tipos-pizza/pizza-hawaiana.jpg",
+        "precio":"17.00",
+        "descuento":"5"
+    },
+    {
+        "id": "5",
+        "nombre":"Pizza Napolitana",
+        "descripcion":"pizza napolitana deliciosa",
+        "image":"../imagenes/tipos-pizza/pizza-napolitana.jpg",
+        "precio":"18.00",
+        "descuento":"5"
+    },
+    {
+        "id": "6",
+        "nombre":"Pizza Napolitana",
+        "descripcion":"pizza napolitana deliciosa",
+        "image":"../imagenes/tipos-pizza/pizza-napolitana.jpg",
+        "precio":"20.00",
+        "descuento":"5"
+    }
+]
