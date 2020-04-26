@@ -8,7 +8,7 @@ $(document).ready(function(){
       }
    
       function productCard(){
-        let jsonPizzas = "../json/product.json";
+        let jsonPizzas = "https://raw.githubusercontent.com/aybaneze/DevPizza/gh-pages/json/product.json";
         $.ajax({
             url: jsonPizzas,
             context: document.body
@@ -17,7 +17,7 @@ $(document).ready(function(){
               
                 let html=`
                         <div class="product" id="${response[i].id}">
-                            <img class="product-img" src="${response[i].image}">
+                            <img class="product-img" src="https://raw.githubusercontent.com/aybaneze/DevPizza/gh-pages${response[i].image}">
                                 <div class="product-contenido">
                                     <h3 class="product-nombre">${response[i].nombre}</h3>
                                     <p class="product-descripcion">${response[i].descripcion}</p>
