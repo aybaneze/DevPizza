@@ -13,15 +13,16 @@ $(document).ready(function(){
             url: jsonPizzas,
             context: document.body
           }).done(function(response) {
-            for(let i=0;i<response.length;i++){
+            var arrProduct = $.parseJSON(response);
+            for(let i=0;i<arrProduct.length;i++){
               
                 let html=`
-                        <div class="product" id="${response[i].id}">
-                            <img class="product-img" src="https://raw.githubusercontent.com/aybaneze/DevPizza/gh-pages${response[i].image}">
+                        <div class="product" id="${arrProduct[i].id}">
+                            <img class="product-img" src="https://raw.githubusercontent.com/aybaneze/DevPizza/gh-pages${arrProduct[i].image}">
                                 <div class="product-contenido">
-                                    <h3 class="product-nombre">${response[i].nombre}</h3>
-                                    <p class="product-descripcion">${response[i].descripcion}</p>
-                                    <p class="product-precio">${response[i].precio}</p>
+                                    <h3 class="product-nombre">${arrProduct[i].nombre}</h3>
+                                    <p class="product-descripcion">${arrProduct[i].descripcion}</p>
+                                    <p class="product-precio">${arrProduct[i].precio}</p>
                                 </div>
                                 <div class="product-button">
                                     <button>AGREGAR</button>
@@ -30,6 +31,8 @@ $(document).ready(function(){
                     `
                     $(".content__product .products").append(html);
             }
+
+
           });
       }
   

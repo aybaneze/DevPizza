@@ -11,7 +11,7 @@
         "id": "2",
         "nombre":"Pizza Pepperoni",
         "descripcion":"pizza muy deliciosa y rica",
-        "image":"/imagenes/tipos-pizza/pizza-de-pepperoni.jpg",
+        "image":"/imagenes/tipos-pizza/Pizza-de-pepperoni.jpg",
         "precio":"21.00",
         "descuento":"5"
     },
